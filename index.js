@@ -3,7 +3,7 @@ const app = express()
 const expressWs = require('express-ws')(app);
 const Game = require('./private/game.js');
 const Player = require('./private/Player.js');
-const port = 3000;
+const port = 3010;
 
 // Globals
 let game = new Game.Game();
