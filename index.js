@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const expressWs = require('express-ws')(app);
 const Game = require('./private/game.js');
-const Player = require('./private/Player.js');
+const Player = require('./private/player.js');
 const port = 3010;
 
 // Globals
