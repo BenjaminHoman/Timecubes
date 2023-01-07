@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Cubes</title>
+
+    <link rel="stylesheet" href="/timecubes/css/main.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/timecubes/js/lib/three.module.js",
+          "/three": "/timecubes/js/lib/three.module.js",
+          "three/": "/timecubes/js/lib/"
+        }
+      }
+    </script>
+    <script src="/timecubes/js/lib/jquery-3.6.1.min.js"></script>
+    <script src="/timecubes/js/perlin_noise.js"></script>
+    <script src="/timecubes/js/player.js"></script>
+    <script src="/timecubes/js/websocketclient.js"></script>
+    <script src="/timecubes/js/lib/ammo.js"></script>
+    <script src="/timecubes/js/game.js" type="module"></script>
+  </head>
+  <body>
+    
+    <main>
+      <div id="stats"></div>
+      <div id="game_panel" class="game_panel">
+      </div>
+    </main>
+  
+  </body>
+</html>
